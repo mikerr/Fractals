@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RaymarchingFractals.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"RaymarchingFractals.cpp.obj"
+		]
+	}
+}

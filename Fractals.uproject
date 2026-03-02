@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,12 +20,7 @@
 		},
 		{
 			"Name": "Bridge",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "Volumetrics",
@@ -33,7 +28,7 @@
 		},
 		{
 			"Name": "OWLLivestreamingToolkit",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/92307b570d474fbc87592b973ce82e3b",
 			"SupportedTargetPlatforms": [
 				"Win64"
@@ -41,6 +36,10 @@
 		},
 		{
 			"Name": "OSC",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXR",
 			"Enabled": true
 		}
 	]
